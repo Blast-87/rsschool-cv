@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Blast-87.github.io/rsschool-cv/cv
