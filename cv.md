@@ -20,9 +20,9 @@ int main()
 {
  setlocale(0,"");
    double z1, z2, a, b;
- cout << "Введите введите а:";
+ cout << "Enter "а":";
    cin >> a;
-  cout << "Введите:";
+  cout << "Enter "b":";
    cin >> b;
   z1 = pow(cos(a)-cos(b),2)-pow(sin(a)-sin(b),2);
   z2=-4*pow(sin((a-b)/2.0),2)*cos(a+b);
