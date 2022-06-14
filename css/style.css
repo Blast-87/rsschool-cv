@@ -113,7 +113,7 @@ html {
   .section-list {
     margin: 0;
     padding: 0;  
-    list-style: none;
+    list-style: circle;
     text-align:left;
   }
 
@@ -135,7 +135,7 @@ html {
   }
   .section {
     width: calc(50% - 20px);
-    padding: 10px;
+    padding: 40px;
     padding-bottom: 35px;
   }
 
@@ -155,20 +155,31 @@ html {
   }
   .footer {
     display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content:center;
     background-color: rgb(69, 178, 221);
-    padding: 20px;  
+    padding: 30px 30px 30px;  
   }
   
   .footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 55px;
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  /* .footer-container {
+    width: 400px;
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
     min-height: 60px;
     display: flex;
     justify-content: space-between;
-  }
+    padding: 50px 30px 35px;
+  } */
   .year {
     font-size: 20px;
     line-height: 42px;
@@ -180,5 +191,5 @@ html {
   }
 
   .rsschool {
-  width: 60px;
+  width: 160px;
   }
