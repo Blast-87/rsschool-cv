@@ -1,0 +1,185 @@
+/*Global*/
+html {
+    scroll-behavior: smooth;
+  }
+  .cv-page{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 60px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(69, 178, 221);
+    }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff; 
+}
+
+.nav-link::after {
+        content: "";
+        position: absolute;
+        left: 12px;
+        bottom: -5px;
+        width: calc(100% - 24px);
+        height: 2px;
+        background-color: #fff;
+        opacity: 0;
+        transition: .5s;
+      }
+    
+.nav-link:hover::after {
+        opacity: 1;
+        animation-name: slidein;
+        animation-duration: 0.51s;
+        animation-fill-mode: forwards;
+      }
+      
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 30vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+  }
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-title {
+    margin-bottom: 20px;  
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+  }
+
+  .main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 30px;
+    word-spacing: 3px;
+  }
+  .section-subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #2e7983;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 5px solid rgb(129, 164, 179);
+  }
+
+  .section-list {
+    margin: 0;
+    padding: 0;  
+    list-style: circle;
+    text-align:left;
+  }
+
+  .section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+  }
+
+  .section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
+  }
+  .section {
+    width: calc(50% - 20px);
+    padding: 40px;
+    padding-bottom: 35px;
+  }
+
+
+  .section-profile-photo {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+   }
+
+   .pre {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+  }
+  .footer {
+    display: flex;
+  justify-content:center;
+    background-color: rgb(69, 178, 221);
+    padding: 30px 30px 30px;  
+  }
+  
+  .footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 55px;
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .year {
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 800;
+  }
+
+  .github {
+   width: 80px;
+  }
+
+  .rsschool {
+  width: 160px;
+  }
